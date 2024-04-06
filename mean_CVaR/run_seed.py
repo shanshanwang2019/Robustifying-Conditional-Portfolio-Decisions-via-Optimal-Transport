@@ -14,19 +14,13 @@ end_date = '20210101'
 seed_id_list = list(range(256))
 cmd = 'python ../py_scripts/US_sim.py'
 exp_params = {
-    'mean_cvar': {'tau': [0.05], 'reg_params': [5]},
-    'dr_mean_cvar': {'reg_params': [5], 'tau': [0.05], 'rho': [0.05,0.1,0.25]},
-    'cond_mean_cvar': {'reg_params': [5], 'tau': [0.05], 'neighbor_quantile': [0.05,0.1,0.25]},
-    'dr_winf_cond_mean_cvar': {'reg_params': [5], 'tau': [0.05], 'gamma_quantile': [0.05,0.1,0.25], 'rho_quantile': [0.05,0.1,0.25]},
-    'dr_w2_cond_mean_cvar': {'reg_params': [5], 'tau': [0.05],  'epsilon': [0.05, 0.1,0.15], 'rho_div_rho_min':  [1.05,1.1,1.15]},#[1.1,1.2,1.5]},
-    #'dr_trim_cond_mean_cvar': {'reg_params': [0.5], 'tau': [0.05],  'gamma': [0.05,0.1,0.25], 'rho_quantile':  [0.2,0.3,0.5]},1.005,1.05,
-    'equal_weight': {'reg_params': [5]},
-	#'mean_variance': {'reg_params': [5]},
-    #'dr_mean_variance': {'reg_params': [5], 'rho': [0.05,0.1,0.2,0.5,1,2,5]},
-    #'cond_mean_variance': {'reg_params': [5], 'neighbor_quantile': [0.1,0.2,0.5]},
-    #'dr_winf_cond_mean_variance': {'reg_params': [5], 'gamma_quantile': [0.1,0.2,0.5], 'rho_quantile': [0.05,0.1,0.25]},
-    #'dr_w2_cond_mean_variance': {'reg_params': [5], 'epsilon': [0.001,0.01, 0.05, 0.1], 'rho_div_rho_min':  [1.005,1.05,1.1,1.2]},
-}
+    'mean_cvar': {'tau': [0.05], 'reg_params': [9]},
+    'dr_mean_cvar': {'reg_params': [9], 'tau': [0.05], 'rho': [0.05,0.1,0.25]},
+    'cond_mean_cvar': {'reg_params': [9], 'tau': [0.05], 'neighbor_quantile': [0.05,0.1,0.25]},
+    'dr_winf_cond_mean_cvar': {'reg_params': [9], 'tau': [0.05], 'gamma_quantile': [0.05,0.1,0.25], 'rho_quantile': [0.05,0.1,0.25]},
+    'dr_w2_cond_mean_cvar': {'reg_params': [9], 'tau': [0.05],  'epsilon': [0.05, 0.1,0.15], 'rho_div_rho_min':  [1.05,1.1,1.15]},
+    'equal_weight': {'reg_params': [9]},	
+}#varies reg_params to get optimal hyperparameters
 import itertools
 def iterdict(input_dict):
     for vals in itertools.product(*input_dict.values()):
