@@ -19,12 +19,7 @@ exp_params = {
     'cond_mean_cvar': {'reg_params': [9], 'tau': [0.05], 'neighbor_quantile': [0.25]},
     'dr_winf_cond_mean_cvar': {'reg_params': [9], 'tau': [0.05], 'gamma_quantile': [0.25], 'rho_quantile': [0.1]},
     'dr_w2_cond_mean_cvar': {'reg_params': [9], 'tau': [0.05],  'epsilon': [ 0.1], 'rho_div_rho_min':  [1.15]},#[1.1,1.2,1.5]},
-    'equal_weight': {'reg_params': [9]},
-	#'mean_variance': {'reg_params': [5]},
-    #'dr_mean_variance': {'reg_params': [5], 'rho': [0.05,0.1,0.2,0.5,1,2,5]},
-    #'cond_mean_variance': {'reg_params': [5], 'neighbor_quantile': [0.1,0.2,0.5]},
-    #'dr_winf_cond_mean_variance': {'reg_params': [5], 'gamma_quantile': [0.1,0.2,0.5], 'rho_quantile': [0.05,0.1,0.25]},
-    #'dr_w2_cond_mean_variance': {'reg_params': [5], 'epsilon': [0.1,0.2,0.5], 'rho_div_rho_min':  [1.1,1.2,1.5]},
+    'equal_weight': {'reg_params': [9]},	
 }
 import itertools
 def iterdict(input_dict):
