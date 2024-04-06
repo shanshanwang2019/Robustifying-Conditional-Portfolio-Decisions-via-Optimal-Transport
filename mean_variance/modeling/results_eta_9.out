@@ -14,14 +14,14 @@ Elapsed time during the whole program in seconds: 278.7245136129999
 Elapsed time during the whole program in seconds: 1607.9638256670003
 \begin{tabular}{lrrrrrrr}
 \toprule
-{} &  pnl\_series &  obj\_series &  cvar\_series &  std\_series &  sharp\_series &  drawdown\_series &  traded\_mv\_series \\
+{} &  pnl\_series &  obj\_series &  cvar\_series &  std\_series &  sharp\_series\\
 \midrule
-equal\_weight               &      0.0374 &     1.1221 &       0.6051 &      1.1624 &        0.7346 &           5.2462 &            0.0000 \\
-mean\_variance              &      0.0128 &     1.0817 &       0.5793 &      1.0505 &        0.4757 &           4.8704 &            1.5907 \\
-dr\_mean\_variance           &      0.0228 &     1.1629 &       0.5513 &      1.1192 &        0.6214 &           4.8958 &            0.7481 \\
-cond\_mean\_variance         &      0.0323 &     1.2089 &       0.6466 &      1.1864 &        0.5914 &           5.4990 &            1.7405 \\
-dr\_winf\_cond\_mean\_variance &      0.0298 &     0.9280 &       0.5414 &      1.0413 &        0.7503 &           4.6608 &            0.6417 \\
-dr\_w2\_cond\_mean\_variance   &      0.0256 &     0.7447 &       0.5145 &      0.9566 &        0.6107 &           4.3524 &            1.3233 \\
+equal\_weight               &      0.0374 &     1.1221 &       0.6051 &      1.1624 &        0.7346 \\
+mean\_variance              &      0.0128 &     1.0817 &       0.5793 &      1.0505 &        0.4757 \\
+dr\_mean\_variance           &      0.0228 &     1.1629 &       0.5513 &      1.1192 &        0.6214 \\
+cond\_mean\_variance         &      0.0323 &     1.2089 &       0.6466 &      1.1864 &        0.5914 \\
+dr\_winf\_cond\_mean\_variance &      0.0298 &     0.9280 &       0.5414 &      1.0413 &        0.7503  \\
+dr\_w2\_cond\_mean\_variance   &      0.0256 &     0.7447 &       0.5145 &      0.9566 &        0.6107\\
 \bottomrule
 \end{tabular}
 
