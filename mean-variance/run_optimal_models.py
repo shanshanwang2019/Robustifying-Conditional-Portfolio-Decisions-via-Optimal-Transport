@@ -13,14 +13,7 @@ end_date = '20230101'
 
 seed_id_list = list(range(256))
 cmd = 'python ../py_scripts/US_sim.py'
-exp_params = {
-    'equal_weight': {'reg_params': [9]},
-	'mean_variance': {'reg_params': [9]},
-    'dr_mean_variance': {'reg_params': [9], 'rho': [0.1]},
-    'cond_mean_variance': {'reg_params': [9], 'neighbor_quantile': [0.25]},
-    'dr_winf_cond_mean_variance': {'reg_params': [9], 'gamma_quantile': [0.1], 'rho_quantile': [0.05]},
-    'dr_w2_cond_mean_variance': {'reg_params': [9], 'epsilon': [0.15], 'rho_div_rho_min':  [1.15]},
-}
+
 import itertools
 def iterdict(input_dict):
     for vals in itertools.product(*input_dict.values()):
