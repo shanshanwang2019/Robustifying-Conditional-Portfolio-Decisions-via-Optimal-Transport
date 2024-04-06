@@ -1,14 +1,32 @@
-Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [04:36<00:00, 276.94s/it]Seed progress: 100%|██████████| 1/1 [04:36<00:00, 276.94s/it]
+
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]
+Seed progress: 100%|██████████| 1/1 [04:36<00:00, 276.94s/it]
+Seed progress: 100%|██████████| 1/1 [04:36<00:00, 276.94s/it]
 Elapsed time during the whole program in seconds: 241.02202131099997
-Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [04:15<00:00, 255.64s/it]Seed progress: 100%|██████████| 1/1 [04:15<00:00, 255.64s/it]
+
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]
+Seed progress: 100%|██████████| 1/1 [04:15<00:00, 255.64s/it]
+Seed progress: 100%|██████████| 1/1 [04:15<00:00, 255.64s/it]
 Elapsed time during the whole program in seconds: 249.381414967
-Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [03:32<00:00, 212.50s/it]Seed progress: 100%|██████████| 1/1 [03:32<00:00, 212.50s/it]
+
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]
+Seed progress: 100%|██████████| 1/1 [03:32<00:00, 212.50s/it]
+Seed progress: 100%|██████████| 1/1 [03:32<00:00, 212.50s/it]
 Elapsed time during the whole program in seconds: 210.17193800600006
-Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [04:01<00:00, 241.13s/it]Seed progress: 100%|██████████| 1/1 [04:01<00:00, 241.13s/it]
+
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]
+Seed progress: 100%|██████████| 1/1 [04:01<00:00, 241.13s/it]
+Seed progress: 100%|██████████| 1/1 [04:01<00:00, 241.13s/it]
 Elapsed time during the whole program in seconds: 238.536605173
-Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [09:28<00:00, 568.26s/it]Seed progress: 100%|██████████| 1/1 [09:28<00:00, 568.26s/it]
+
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]
+Seed progress: 100%|██████████| 1/1 [09:28<00:00, 568.26s/it]
+Seed progress: 100%|██████████| 1/1 [09:28<00:00, 568.26s/it]
 Elapsed time during the whole program in seconds: 564.3879057869999
-Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [03:10<00:00, 190.39s/it]Seed progress: 100%|██████████| 1/1 [03:10<00:00, 190.39s/it]
+
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]
+Seed progress: 100%|██████████| 1/1 [03:10<00:00, 190.39s/it]
+Seed progress: 100%|██████████| 1/1 [03:10<00:00, 190.39s/it]
 /scratch/shsh0910/60d_recent_data_cc/50_stocks/mc_50/9/run_seed1_opt05.py:123: FutureWarning: In future versions `DataFrame.to_latex` is expected to utilise the base implementation of `Styler.to_latex` for formatting and rendering. The arguments signature may therefore change. It is recommended instead to use `DataFrame.style.to_latex` which also contains additional functionality.
   ].loc[['equal_weight', 'mean_cvar', 'dr_mean_cvar','cond_mean_cvar','dr_winf_cond_mean_cvar','dr_w2_cond_mean_cvar']].round(4).to_latex())
 Elapsed time during the whole program in seconds: 188.4551328350001
