@@ -34,7 +34,7 @@ for model_name in exp_params:
             portfolio_solver_type = model_name,
             portfolio_solver_kwargs = solver_kwargs,
         )
-        sim.batch_run_from_seed_id_list(seed_id_list=list(range(1)), stock_num=20, start_date=start_date, end_date=end_date, save_result=True)
+        sim.batch_run_from_seed_id_list(seed_id_list=list(range(1)), stock_num=50, start_date=start_date, end_date=end_date, save_result=True)
 
 cmd = 'python ../py_scripts/US_sim.py'
 
