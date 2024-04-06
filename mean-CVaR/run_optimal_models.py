@@ -13,20 +13,7 @@ end_date = '20230101'
 
 seed_id_list = list(range(256))
 cmd = 'python ../py_scripts/US_sim.py'
-for model_name in exp_params:
-    for solver_kwargs in iterdict(exp_params[model_name]):
-        sim = modeling.simulations.US_sim.USSimulation(
-            portfolio_solver_type = model_name,
-            portfolio_solver_kwargs = solver_kwargs,
-        )
-        _ = SimulationAnalyzer.sim_model_batch_annual_analysis_from_seed_id_list(
-            sim_model = sim,
-            seed_id_list = list(range(256)),
-            start_date = str(start_date),
-            end_date = str(end_date),
-            CVaR_q = 0.05,
-            util_inverse_ra=0.1,
-        )
+
 import itertools
 def iterdict(input_dict):
     for vals in itertools.product(*input_dict.values()):
