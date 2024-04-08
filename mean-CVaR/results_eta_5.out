@@ -1,0 +1,37 @@
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [04:37<00:00, 277.69s/it]Seed progress: 100%|██████████| 1/1 [04:37<00:00, 277.69s/it]
+Elapsed time during the whole program in seconds: 245.08340754300002
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [04:09<00:00, 249.39s/it]Seed progress: 100%|██████████| 1/1 [04:09<00:00, 249.39s/it]
+Elapsed time during the whole program in seconds: 246.74856692100002
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [03:30<00:00, 210.81s/it]Seed progress: 100%|██████████| 1/1 [03:30<00:00, 210.81s/it]
+Elapsed time during the whole program in seconds: 208.36428563300007
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [04:00<00:00, 240.94s/it]Seed progress: 100%|██████████| 1/1 [04:00<00:00, 240.94s/it]
+Elapsed time during the whole program in seconds: 238.28311639499998
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [09:25<00:00, 565.74s/it]Seed progress: 100%|██████████| 1/1 [09:25<00:00, 565.74s/it]
+Elapsed time during the whole program in seconds: 562.02476565
+Seed progress:   0%|          | 0/1 [00:00<?, ?it/s]Seed progress: 100%|██████████| 1/1 [03:11<00:00, 191.31s/it]Seed progress: 100%|██████████| 1/1 [03:11<00:00, 191.31s/it]
+/scratch/shsh0910/60d_recent_data_cc/50_stocks/mc_50/5/run_seed1_opt05.py:123: FutureWarning: In future versions `DataFrame.to_latex` is expected to utilise the base implementation of `Styler.to_latex` for formatting and rendering. The arguments signature may therefore change. It is recommended instead to use `DataFrame.style.to_latex` which also contains additional functionality.
+  ].loc[['equal_weight', 'mean_cvar', 'dr_mean_cvar','cond_mean_cvar','dr_winf_cond_mean_cvar','dr_w2_cond_mean_cvar']].round(4).to_latex())
+Elapsed time during the whole program in seconds: 189.36203541500004
+\begin{tabular}{lrrrrrrr}
+\toprule
+{} &  pnl\_series &  obj\_series &  cvar\_series &  std\_series &  sharp\_series  \\
+\midrule
+equal\_weight           &      0.0374 &     0.4182 &       0.6051 &      1.1624 &        0.7346  \\
+mean\_cvar              &      0.0149 &     0.5078 &       0.5822 &      1.0115 &        0.4181  \\
+dr\_mean\_cvar           &      0.0193 &     0.4301 &       0.5266 &      0.9692 &        0.5490  \\
+cond\_mean\_cvar         &      0.0287 &     0.4962 &       0.6399 &      1.1285 &        0.5497  \\
+dr\_winf\_cond\_mean\_cvar &      0.0291 &     0.4008 &       0.5462 &      1.0348 &        0.7255  \\
+dr\_w2\_cond\_mean\_cvar   &      0.0280 &     0.3845 &       0.5244 &      0.9940 &        0.6882  \\
+\bottomrule
+\end{tabular}
+
+0.0008869200370528461
+0.0011982498762987408
+0.2111224586840847
+0.00034363646155391437
+0.010163621427163722
+0.9993484756950599
+0.9991130799629472
+0.8137298958273433
+0.9997532841711376
+0.9920163466906207
