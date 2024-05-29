@@ -1,6 +1,6 @@
 # Robustifying-Conditional-Portfolio-Decisions-via-Optimal-Transport
 
-The data, code and results for mean-CVaR models (folder "/mean-CVaR") and mean-variance models (folder "/mean-variance") are described in "Robustifying Conditional Portfolio Decisions via Optimal Transport", where
+The data, code and results for mean-CVaR models (folder "/mean-CVaR") and mean-variance models (folder "/mean-variance") described in "Robustifying Conditional Portfolio Decisions via Optimal Transport", where
 
 "./data” includes the US stock return data and side information downloaded from Wharton Research Data Services and yfinance, respectively.
 
